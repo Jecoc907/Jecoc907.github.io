@@ -1,12 +1,10 @@
 # My Personal Portfolio Webiste
 
-## Hosted with Github Pages
-
-### Features
-
-- About Section
+## Sections
+- About
 - Resume
+- Previous Projects
 - Skills
-- Portfolio w/ Details
+- Contact
 
-### Available at [https://ggsmith842.github.io/](https://ggsmith842.github.io/)
+
