@@ -3,8 +3,6 @@
 ## Sections
 - About
 - Resume
-- Previous Projects
+- Past Projects
 - Skills
 - Contact
-
-
