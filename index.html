@@ -52,6 +52,27 @@
             font-size: 14px;
             color: #777;
         }
+        /* Scroll-Up Button Styling */
+        #scroll-top {
+            position: fixed;
+            right: 20px;
+            bottom: 50px; /* Adjust this value to position it above the footer */
+            background-color: #fff; /* White background */
+            border: 1px solid #ccc; /* Light border */
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+            z-index: 999; /* Ensure it appears on top */
+        }
+        
+        #scroll-top i {
+            font-size: 20px;
+            color: #333; /* Icon color */
+        }
     </style>
 
 </head>
@@ -510,20 +531,20 @@
         
     </main>
 
-        <!-- Footer -->
-        <footer id="footer" class="footer">
-            <div class="container text-right py-3">
-                <p>Copyright &#169; 2024 Jeco (Chun Yat), Cheung. All Rights Reserved.</p>
-            </div>
-        </footer>
-        
-        <!-- Scroll Top -->
-        <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
-            <i class="bi bi-arrow-up-short"></i>
-        </a>
-        
-        <!-- Preloader -->
-        <div id="preloader"></div>
+            <!-- Footer -->
+            <footer id="footer" class="footer">
+                <div class="container text-right py-3">
+                    <p>Copyright &#169; 2024 Jeco (Chun Yat), Cheung. All Rights Reserved.</p>
+                </div>
+            </footer>
+            
+            <!-- Scroll Top -->
+            <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+                <i class="bi bi-arrow-up-short"></i>
+            </a>
+            
+            <!-- Preloader -->
+            <div id="preloader"></div>
     
 
         <!-- vendor js files -->
